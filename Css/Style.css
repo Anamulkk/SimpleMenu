@@ -1,20 +1,37 @@
 *{box-sizing: border-box;
 margin: 0;
 padding: 0;
-
 }
 
 .menu {
-background-color: red;
 overflow: hidden;
+width: 100%;
+background-color: black;
+position: sticky;
+top: 0;
+position: -webkit-sticky;
+}
+
+.menu  ul {list-style: none; 
+width: 100%;
 }
 
 
-
 .menu  a{
-    display: block;
+display: block;
 color: white;
 float: left;
 text-decoration: none;
+padding: 10px 16px;
 
+}
+
+.menu   a:hover{
+    background-color: red;
+}
+
+/* Clickable focuse */
+
+.menu a:focus{
+    background-color: green;
 }
