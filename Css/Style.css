@@ -1,0 +1,20 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+.menu {
+background-color: red;
+overflow: hidden;
+}
+
+
+
+.menu  a{
+    display: block;
+color: white;
+float: left;
+text-decoration: none;
+
+}
